@@ -1,6 +1,7 @@
 var PostRoute = Ember.Route.extend({
   model: function(params){
-    return this.store.find('post', {title: params.title});
+    console.log(params)
+    return this.store.find('post', params.post_id);
   }
 });
 

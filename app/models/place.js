@@ -9,48 +9,48 @@ var Place = DS.Model.extend({
 
 Place.reopenClass({
   FIXTURES: [{
-    "id": 0,
-    "post": 0,
+    "id": "humboldt",
+    "post": "redwoods",
     "name": "Humboldt Redwoods State Park",
     "lat": 40.368176,
     "lon": -123.929573,
     "country": "United States",
     "language": "English"
   }, {
-    "id": 1,
-    "post": 1,
+    "id": "provence",
+    "post": "provence",
     "name": "Lavender Fields",
     "lat": 43.834167,
     "lon": 5.783889,
     "country": "France",
     "language": "Français"
   }, {
-    "id": 2,
-    "post": 2,
+    "id": "nyc",
+    "post": "nyc",
     "name": "Top of the Rock",
     "lat": 40.75906,
     "lon": -73.97949,
     "country": "United States",
     "language": "English"
   }, {
-    "id": 3,
-    "post": 3,
+    "id": "abu-dhabi",
+    "post": "abu-dhabi",
     "name": "Heritage Village",
     "lat": 24.47842,
     "lon": 54.33318,
     "country": "United Arab Emirates",
     "language": "Arabic"
   }, {
-    "id": 4,
-    "post": 4,
+    "id": "dc",
+    "post": "dc",
     "name": "Key Bridge Boat House",
     "lat": 38.90392,
     "lon": -77.06973,
     "country": "United States",
     "language": "English"
   }, {
-    "id": 5,
-    "post": 5,
+    "id": "nha-trang",
+    "post": "nha-trang",
     "name": "Nha Trang Beach",
     "lat": 12.24525,
     "lon": 109.19895,
