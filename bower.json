@@ -11,9 +11,6 @@
     "ic-ajax": "~1.x",
     "loader": "stefanpenner/loader.js#1.0.0",
     "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.1",
-    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.1",
-    "raphael": "2.1.0",
-    "kartograph.js": "0.8.2",
-    "magnific-popup": "0.9.9"
+    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.1"
   }
 }

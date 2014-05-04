@@ -13,10 +13,7 @@ var app = new EmberApp({
     'ember-data.js',
     'app-shims.js',
     'ember-resolver.js',
-    'ember-load-initializers.js',
-    'jquery.magnific-popup.js',
-    'raphael.js',
-    'kartograph.js/kartograph-0.8.2.js'
+    'ember-load-initializers.js'
   ],
 
   // AKA whitelisted modules

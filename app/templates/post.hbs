@@ -1,32 +1,17 @@
 <script>
   $('.magnific-img').magnificPopup({
     type: 'image',
-    removalDelay: 300,
+    //removalDelay: 300,
 
     // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
-
-  mapk = function(content) {
-    var map = Kartograph.map(content, 200);
-    //console.log($(content).attr('lat'));
-    map.loadMap('/img/world.svg', function() {
-      map.addLayer('countries', { styles: { fill: '#000', stroke: '#999', 'stroke-width': 0.2 }});
-      map.addSymbols({
-        type: Kartograph.Bubble,
-        data: datum,
-        location: function(d) { return [lon, lat]; },
-        radius: 5,
-        style: 'fill:#800; stroke:#fff; fill-opacity:0.8',
-        title: function(d) { return title; }
-      });
-    }).done(function() {
-    });
-  };
-
-  mapk('.map');
 </script>
+<div id="topbar">
+  <div id="title"><a href="/"><b>findyourself.in</b></a></div>
+  <div id="social"><a href="mailto:guru@findyourself.in">@</a></div>
+</div>
 <div class="post">
   <h1>{{title}}</h1>
   <h2>find yourself in... {{title}}</h2>
@@ -35,7 +20,7 @@
     <p>{{description}}</p>
   </div>
   <div class="right">
-    <a href="/"><div class="map" {{bindAttr lat=place.lat}}></div></a>
+    <a href="/"><div class="map"></div></a>
     <div class="field">
       <p><b>Location</b><br>{{place.name}}</p>
       <p><b>Latitude, Longitude</b><br>{{place.lat}}, {{place.lon}}</p>
