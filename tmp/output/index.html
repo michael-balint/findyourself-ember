@@ -15,7 +15,7 @@
   <body>
     <script src="assets/app.js"></script>
     <script>
-      window.ENV = {"baseURL":"/","FEATURES":{},"APP":{}};
+      window.ENV = {"baseURL":"/","FEATURES":{},"APP":{"LOG_RESOLVER":true,"LOG_ACTIVE_GENERATION":true,"LOG_MODULE_RESOLVER":true,"LOG_VIEW_LOOKUPS":true}};
       window.Findyourself = require('findyourself/app')['default'].create(ENV.APP);
     </script>
   </body>
